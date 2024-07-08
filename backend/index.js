@@ -8,7 +8,7 @@ import fs from 'fs';
 dotenv.config();
 const app = express();
 app.use(cors());
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 
 // Multer setup for multiple file uploads
 const upload = multer({ dest: 'uploads/' }); // Specify the destination folder for uploaded files
